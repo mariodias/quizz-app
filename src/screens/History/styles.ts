@@ -9,5 +9,22 @@ export const styles = StyleSheet.create({
   },
   history: {
     padding: 32,
-  }
+    flexGrow: 1,
+  },
+  swipeableRemove: {
+    backgroundColor: THEME.COLORS.DANGER_LIGHT,
+    borderTopLeftRadius: 6,
+    borderBottomLeftRadius: 6,
+    width: 90,
+    height: 90,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  swipeableContainer: {
+    width: '100%',
+    backgroundColor: THEME.COLORS.DANGER_LIGHT,
+    borderRadius: 6,
+    height: 90,
+    marginBottom: 12,
+  },
 });
